@@ -1,0 +1,33 @@
+@keyframes stopAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* BODY MOBILE VERSION */
+
+  html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.clickMe {
+    animation: stopAnimation 1s linear forwards;
+    position: absolute;
+    z-index: 9;
+    margin: 0 auto;    
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+p{
+    margin: 0;
+}
