@@ -14,12 +14,17 @@
     height: 100%;
     position: relative;
     overflow: hidden;
+    color:white;
+    --o-font-type: 'Montserrat', sans-serif; 
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .clickMe {
     animation: stopAnimation 1s linear forwards;
     position: absolute;
-    z-index: 9;
+    z-index: 999;
     margin: 0 auto;    
     left: 50%;
     transform: translateX(-50%);
@@ -28,6 +33,76 @@
     object-fit: cover;
 }
 
-p{
+.backgroundImg{
+    position: absolute;
     margin: 0;
+    z-index: -99;
+    height: 100vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.characterImg{
+    position: absolute;
+    margin: 0;
+    z-index: -9;
+    height: 35vh;
+    left: 20%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+article {
+    height: 90%;
+    /* font-family: var(--o-font-type); */ 
+    margin-bottom: auto;
+}
+
+.copyBody{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    font-family:  LuchitaPayol-Tecnica, banco;
+}
+.copyBody img{
+    height: 25%;
+    margin: 0;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.copyBody h1{
+    margin: 0;
+    font-weight: 800;
+}
+
+p{
+    margin: 50px 0px;
+    font-weight: 500;
+    width: 70%;
+
+}
+
+.anchorIcons{
+    margin: 0;
+    display: flex;
+    font-weight: 500;
+    gap: 40px;
+
+}
+
+.anchorIcons a{
+    margin: 0;
+    height: 18px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.anchorIcons a:hover{
+    scale: 1.2;
 }
