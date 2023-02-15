@@ -15,7 +15,7 @@
     position: relative;
     overflow: hidden;
     color:white;
-    --o-font-type: 'Montserrat', sans-serif; 
+    --o-font-type: 'Cinzel', 'Montserrat', sans-serif; 
 }
 a{
     text-decoration: none;
@@ -46,15 +46,14 @@ a{
     position: absolute;
     margin: 0;
     z-index: -9;
-    height: 35vh;
-    left: 20%;
+    height: 40vh;
     bottom: 0;
     transform: translateX(-50%);
 }
 
 article {
     height: 90%;
-    /* font-family: var(--o-font-type); */ 
+    font-family: var(--o-font-type);
     margin-bottom: auto;
 }
 
@@ -67,28 +66,28 @@ article {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    font-family:  LuchitaPayol-Tecnica, banco;
 }
 .copyBody img{
     height: 25%;
     margin: 0;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 25%;
 }
 .copyBody h1{
     margin: 0;
     font-weight: 800;
+
 }
 
 p{
-    margin: 50px 0px;
+    margin: 0px;
+    margin-top: 30px;
     font-weight: 500;
     width: 70%;
-
 }
 
 .anchorIcons{
     margin: 0;
+    margin-top: 50px;
     display: flex;
     font-weight: 500;
     gap: 40px;
