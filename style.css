@@ -46,13 +46,13 @@ a{
     position: absolute;
     margin: 0;
     z-index: -9;
-    height: 40vh;
+    height: 20vh;
     bottom: 0;
     transform: translateX(-50%);
 }
 
 article {
-    height: 90%;
+    height: 100%;
     font-family: var(--o-font-type);
     margin-bottom: auto;
 }
@@ -64,13 +64,13 @@ article {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
 }
 .copyBody img{
-    height: 25%;
     margin: 0;
-    margin-top: 25%;
+    width: 70%;
+    /* margin-top: 25%; */
 }
 .copyBody h1{
     margin: 0;
@@ -78,15 +78,15 @@ article {
 }
 
 p{
-    margin: 0px;
-    margin-top: 30px;
+    margin:60px 0px;
+    /* margin-top: 30px; */
     font-weight: 500;
     width: 70%;
 }
 
 .anchorIcons{
     margin: 0;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     font-weight: 500;
     gap: 40px;
