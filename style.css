@@ -75,7 +75,6 @@ article {
 .copyBody h1{
     margin: 0;
     font-weight: 800;
-
 }
 
 p{
@@ -91,7 +90,6 @@ p{
     display: flex;
     font-weight: 500;
     gap: 40px;
-
 }
 
 .anchorIcons a{
